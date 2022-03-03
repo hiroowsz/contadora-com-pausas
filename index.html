@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,800;1,200&display=swap" rel="stylesheet">
+    <title>Contagem com pausas</title>
+    <link rel="stylesheet" href="style.css"> <!--Cria um link para outro arquivo-->
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Contagem com pausas</h1>
+</header>
+  <section>
+        <img src="https://i.ibb.co/R2xYyY5/image-2022-03-03-181933.png" alt="criança contando">
+            Início: <input type="number" name="ini" id="ini"> <br> <br> <!--da pra por em paragrafo tambem-->
+            Fim: <input type="number" name="end" id="end"> <br> <br>
+            Passos: <input type="number" name="pas" id="pas"> <br> <br>
+                      <input type="button" value="Contar" onclick="contar()">
+      <div id="res"></div>  
+  </section>
+  <footer>
+    <p>&copy; Ramon Pinheiro</p>
+  </footer> <!-- &copy; cria o símbolo de Copyright--> 
+  <script src="script.js"></script> <!--Cria uma seção de JS em outro arquivo--> 
+</body>
+</html>
